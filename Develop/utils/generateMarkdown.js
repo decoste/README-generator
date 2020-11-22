@@ -11,6 +11,14 @@ ${data.title}
 ## Description
 ${data.description}
 
+## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Test](#test)
+  * [Questions](#questions)
+  * [License](#license)
+
 ## Installation
 ${data.installation}
 
@@ -28,8 +36,9 @@ ${data.contributing}
 
 ## Questions
 The following is my Github account:
-${data.username}
-  
+
+[${data.username}](https://github.com/${data.username})
+
 Please feel free to send me an email if you have any question(s) ${data.email}
 `;
   function licenseshield(data) {

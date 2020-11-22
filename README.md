@@ -9,6 +9,10 @@ README generator
 ## Description
 This applictaion creates a command-line that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer)
 
+The following GIF demonstrates the application functionality:
+
+![README generator demo](./Assets/images/readMe.gif)
+
 ## Installation
 The user need to install Node.js and git bash, also the user should install the required node dependencies.
 

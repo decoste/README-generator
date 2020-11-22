@@ -16,7 +16,7 @@ test
 test
 
 ## Contributing
-(./CONTRIBUTING.md)
+[CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## Test
 test

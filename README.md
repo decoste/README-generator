@@ -12,6 +12,14 @@ This applictaion creates a command-line that dynamically generates a professiona
 ## Installation
 The user need to install Node.js and git bash, also the user should install the required node dependencies.
 
+## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Test](#test)
+  * [Questions](#questions)
+  * [License](#license)
+
 ## Usage
   * The user need to open the terminal (and to make sure to be in the correct directory)
   * By using the comand line, the user should use the command  'node index.js'.

@@ -1,8 +1,9 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  let userLicense =license(data)
+  const lc = licenseshield(data);
+
   return `
-  ${userLicense}
+  ${lc}
 
   ##Title:
   ${data.title}
@@ -31,23 +32,16 @@ function generateMarkdown(data) {
   
   Please feel free to send me an email if you have any question(s) ${data.email}
 `;
-
-function license(data) {
-  if (data.license === "MIT") {
-    return `MIT License\n
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
-  } else if (data.license === "BSD2") {
-    return `BSD2 License\n
-    [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)`;
-  } else if (data.license === "Mozilla") {
-    return `Mozilla 2.0 License\n
-    [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
-  } else if (data.license === "ISC") {
-    return `ISC License\n
-    [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`;
-  } else {
-    return " ";
-  }
+function licenseshield(data){
+  
+const userLicense = {
+  Mozilla: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+    MIT: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+    BSD2: "[![License: BSD](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)",
+    ISC: "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
+    Apache: "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+}
+return userLicense[data.license]; 
 }
 
 }

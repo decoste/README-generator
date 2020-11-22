@@ -37,7 +37,7 @@ const fs = require("fs");
         type: "list",
         name: "license",
         message: "which license is needed for this application?",
-        choices: ['Mozilla', 'Apache', 'ISC', 'MIT', 'None of the obove'],
+        choices: ['Mozilla', 'BSD2', 'ISC', 'MIT', 'Apache', 'None of the obove'],
     },
     {
         type: "input",

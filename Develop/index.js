@@ -37,7 +37,7 @@ const fs = require("fs");
         type: "list",
         name: "license",
         message: "which license is needed for this application?",
-        choices: ['Mozilla', 'Apache', 'GPL', 'GNU', 'MIT', 'None of the obove'],
+        choices: ['Mozilla', 'Apache', 'ISC', 'MIT', 'None of the obove'],
     },
     {
         type: "input",
@@ -63,7 +63,7 @@ function init() {
 inquirer
 .prompt(questions)
     .then((data) => {
-    writeToFile('userREADME.md'), generateMarkdown(data)
+    writeToFile('userREADME.md', generateMarkdown(data))
        
       });
 

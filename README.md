@@ -3,29 +3,29 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ## Title:
-  README generator test
+## Title:
+README generator test
 
-  ## Description
-  test
+## Description
+test
 
-  ## Installation
-  test
+## Installation
+test
 
-  ## Usage
-  test
+## Usage
+test
 
-  ## Contributing
-  test
+## Contributing
+(./CONTRIBUTING.md)
 
-  ## Test
-  test
+## Test
+test
 
-  ## License
-  MIT
+## License
+MIT
 
-  ## Questions
-  The following is my Github account:
-  decoste
-  
-  Please feel free to send me an email if you have any question(s) test@gmail.com
+## Questions
+The following is my Github account:
+decoste
+
+Please feel free to send me an email if you have any question(s) test@gmail.com
